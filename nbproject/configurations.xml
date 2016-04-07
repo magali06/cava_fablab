@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="/home/magali/Documents/ensimag/fablab/cava" name="0">
+      <df name="iniparser">
+        <df name="src">
+          <in>dictionary.c</in>
+          <in>iniparser.c</in>
+        </df>
+      </df>
+      <in>cava.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>/home/magali/Documents/ensimag/fablab/cava/Makefile</itemPath>
+      <itemPath>/home/magali/Documents/ensimag/fablab/cava/configure</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>/home/magali/Documents/ensimag/fablab/cava</Elem>
+  </sourceRootList>
+  <projectmakefile>/home/magali/Documents/ensimag/fablab/cava/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=gnu99 -std=c99"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>/home/magali/Documents/ensimag/fablab/cava</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <preprocessorList>
+              <Elem>ALSA</Elem>
+              <Elem>HAVE_CURSES_H=1</Elem>
+              <Elem>HAVE_DLFCN_H=1</Elem>
+              <Elem>HAVE_INTTYPES_H=1</Elem>
+              <Elem>HAVE_MEMORY_H=1</Elem>
+              <Elem>HAVE_PTHREAD_H=1</Elem>
+              <Elem>HAVE_STDINT_H=1</Elem>
+              <Elem>HAVE_STDLIB_H=1</Elem>
+              <Elem>HAVE_STRINGS_H=1</Elem>
+              <Elem>HAVE_STRING_H=1</Elem>
+              <Elem>HAVE_SYS_STAT_H=1</Elem>
+              <Elem>HAVE_SYS_TYPES_H=1</Elem>
+              <Elem>HAVE_UNISTD_H=1</Elem>
+              <Elem>LT_OBJDIR=".libs/"</Elem>
+              <Elem>NCURSES</Elem>
+              <Elem>PACKAGE="cava"</Elem>
+              <Elem>PACKAGE_BUGREPORT="karl@stavestrand.no"</Elem>
+              <Elem>PACKAGE_NAME="cava"</Elem>
+              <Elem>PACKAGE_STRING="cava 0.4.1-5-gcfc625f"</Elem>
+              <Elem>PACKAGE_TARNAME="cava"</Elem>
+              <Elem>PACKAGE_URL=""</Elem>
+              <Elem>PACKAGE_VERSION="0.4.1-5-gcfc625f"</Elem>
+              <Elem>PULSE</Elem>
+              <Elem>STDC_HEADERS=1</Elem>
+              <Elem>VERSION="0.4.1-5-gcfc625f"</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="/home/magali/Documents/ensimag/fablab/cava/cava.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>iniparser/src</pElem>
+            <pElem>/usr/include/ncursesw</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>_POSIX_C_SOURCE=200809L</Elem>
+            <Elem>_POSIX_SOURCE</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="/home/magali/Documents/ensimag/fablab/cava/iniparser/src/dictionary.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+      </item>
+      <item path="/home/magali/Documents/ensimag/fablab/cava/iniparser/src/iniparser.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+      </item>
+      <folder path="0/iniparser">
+        <cTool>
+          <incDir>
+            <pElem>iniparser</pElem>
+            <pElem>/usr/include/ncursesw</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>
